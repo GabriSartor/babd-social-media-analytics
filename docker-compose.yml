@@ -1,0 +1,5 @@
+version: '3'
+services:
+  reddit-daemon:
+    image: reddit-daemon
+    build: ./reddit_daemon
