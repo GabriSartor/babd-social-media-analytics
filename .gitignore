@@ -8,3 +8,4 @@ dist/
 .env
 
 X509-cert.pem
+mongo_credentials.txt
