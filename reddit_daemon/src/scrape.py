@@ -16,7 +16,7 @@ from config import Config
 uri = "mongodb+srv://rdtsl.gakec.mongodb.net/myFirstDatabase?authSource=%24external&authMechanism=MONGODB-X509&retryWrites=true&w=majority"
 client = MongoClient(uri,
                      tls=True,
-                     tlsCertificateKeyFile='X509-cert.pem')
+                     tlsCertificateKeyFile='./X509-cert.pem')
 
 db = client.reddit_soccer
 sub_coll = db['reddit_submissions']

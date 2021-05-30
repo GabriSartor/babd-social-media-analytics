@@ -4,7 +4,7 @@ WORKDIR /usr/app/src
 
 COPY ./requirements.txt ./
 COPY src/* ./
-COPY ./X509-cert.pem ./
+COPY ../config/X509-cert.pem ./
 
 RUN pip install --no-cache-dir -r requirements.txt
 

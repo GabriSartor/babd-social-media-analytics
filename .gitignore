@@ -11,3 +11,4 @@ X509-cert.pem
 mongo_credentials.txt
 
 __pycache__/
+.ipynb_checkpoints/
